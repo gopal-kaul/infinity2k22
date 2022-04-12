@@ -28,6 +28,7 @@ p,
 li {
   background-image: linear-gradient(45deg, rgb(156, 14, 156), rgb(44, 44, 194));
   background-clip: text;
+  -webkit-background-clip: text;
   color: transparent;
 }
 
@@ -176,9 +177,6 @@ ul {
   li {
     font-size: 1rem;
   }
-  .maincontent {
-    text-align: left;
-  }
 }
 
 .contactchild a {
@@ -200,5 +198,72 @@ footer p {
   i,
   p {
     font-size: 0.8rem;
+  }
+}
+
+.addresscontainer {
+  display: "flex";
+  flex-direction: "row";
+  justify-content: "space-evenly";
+}
+
+.secondarycontent h1,
+p,
+li {
+  color: white;
+}
+.maincontent h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+@media screen and (max-width: 768px) {
+  .maincontent h1 {
+    font-size: 2rem;
+  }
+  .centerbtn {
+    display: flex;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .centerbtn p {
+    font-size: 1rem;
+  }
+  .registerbtn {
+    padding-top: 3%;
+    margin-left: 2%;
+    margin-right: 3%;
+  }
+}
+
+.card-text,
+.card-title {
+  color: black;
+}
+
+.eventcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 25%;
+  flex-grow: 1;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 3%;
+  height: fit-content;
+}
+
+@media screen and (max-width: 992px) {
+  .eventcontainer {
+    flex-direction: column;
+  }
+  .card {
+    flex: 100%;
+    flex-grow: 1;
   }
 }
