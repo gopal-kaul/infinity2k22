@@ -7,10 +7,12 @@ import HomePage from "./components/Homepage";
 import Workshop from "./components/Workshop";
 import ContactUs from "./components/ContactUs";
 import Events from "./components/Events";
+import ScrollToTop from "./components/ScrollToTop";
 import { Container } from "react-bootstrap";
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <div className="mycontainer">
         <Container>
