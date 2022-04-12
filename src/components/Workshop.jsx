@@ -11,6 +11,8 @@ export default function Workshop() {
         <Image src="workshop.jpg" className="d-block w-100" />
         <br />
         <br />
+      </div>
+      <div className="secondarycontent">
         <h1>Workshop Objectives</h1>
         <p>At the end of this Workshop, participants will be able to:</p>
         <ul>
@@ -48,18 +50,18 @@ export default function Workshop() {
           Basic Knowledge of Computers &amp; Internet Participants should bring
           their own laptops. (A group of 2-3 students can also share a laptop).
         </p>
-        <button
-          className="registerbtn "
-        >
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSeZYilfQxo00pKvxIfP3XKwq6k5HKsoJFHLQwmAwLNFMSkEjA/viewform"
-            rel="noreferrer"
-            target="_blank"
-            style={{ textDecoration: "none" }}
-          >
-            <p>Register</p>
-          </a>
-        </button>
+        <div className="centerbtn">
+          <button className="registerbtn ">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeZYilfQxo00pKvxIfP3XKwq6k5HKsoJFHLQwmAwLNFMSkEjA/viewform"
+              rel="noreferrer"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <p>Register</p>
+            </a>
+          </button>
+        </div>
       </div>
     </>
   );
