@@ -1,14 +1,44 @@
-import { Card, Image } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import { ThreeDotsVertical, X } from "react-bootstrap-icons";
+import { useState } from "react";
 
 function MyCard({ image, name, info, quote, registerlink }) {
+  const [hide, setHide] = useState(false);
   if (name !== "") {
     return (
-      <Card style={{ width: "18rem" }}>
-        <Card.Img src={`${image}`} variant="top" />
-        <Card.Body>
-          <Card.Title>{name}</Card.Title>
+      <Card>
+        <Card.Img
+          className={`${hide ? "hideimg" : "showimg"}`}
+          src={`${image}`}
+          variant="top"
+        />
+        <Card.Body onClick={() => setHide((old) => !old)}>
+          <Card.Title
+            style={{ display: "flex", justifyContent: "space-between" }}
+          >
+            <h2>{name}</h2>
+            {!hide ? (
+              <ThreeDotsVertical style={{ left: "0%", color: "black" }} />
+            ) : (
+              <X style={{ left: "0%", color: "black" }} />
+            )}
+          </Card.Title>
           <Card.Text>{info}</Card.Text>
-          <Card.Text>{quote}</Card.Text>
+          {hide && (
+            <Card.Text className={`cardquote ${hide ? "showimg" : "hideimg"}`}>
+              <strong>{quote}</strong>
+            </Card.Text>
+          )}
+          <button className="registerbtn ">
+            <a
+              href={registerlink}
+              rel="noreferrer"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <p>Register</p>
+            </a>
+          </button>
         </Card.Body>
       </Card>
     );
@@ -62,7 +92,7 @@ export default function Events() {
       image: "techtactoe.svg",
       name: "Tech Tac Toe",
       info: "Students are taken back to their childhood games while they use their current technological knowledge. The first round is a tic-tac-toe game where participants can mark X or O only when they answer to a technical question. The second round is going to be a snakes & ladders game following the same theme.",
-      quote: "",
+      quote: "“Live like a child, think like an adult”",
       registerlink: "#",
     },
     { image: "", name: "", info: "", quote: "", register: "" },
