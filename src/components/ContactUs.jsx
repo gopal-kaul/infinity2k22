@@ -1,5 +1,4 @@
 import { Envelope, Instagram, Telephone } from "react-bootstrap-icons";
-import { Ratio } from "react-bootstrap";
 export default function ContactUs() {
   return (
     <>
@@ -61,8 +60,7 @@ export default function ContactUs() {
           </a>
         </div>
         <div className="contactchild">
-          <div className="addresscontainer"
-          >
+          <div className="addresscontainer">
             <div>
               <h1>Address: </h1>
               <p>
@@ -71,15 +69,15 @@ export default function ContactUs() {
                 <br /> 500 007
               </p>
             </div>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1570.2374466365034!2d78.51891866844238!3d17.407366381130057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb999fe3618c93%3A0x69d06ce85564c422!2sComputer%20Science%20Engineering%20Department!5e0!3m2!1sen!2sin!4v1649660461802!5m2!1sen!2sin"
-              style={{ border: 0 }}
-              allowfullscreen=""
-              width="500"
-              height="500"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1570.2374466365034!2d78.51891866844238!3d17.407366381130057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb999fe3618c93%3A0x69d06ce85564c422!2sComputer%20Science%20Engineering%20Department!5e0!3m2!1sen!2sin!4v1649660461802!5m2!1sen!2sin"
+                style={{ border: 0 }}
+                allowfullscreen=""
+                width={600}
+                height={400}
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
           </div>
         </div>
       </div>
