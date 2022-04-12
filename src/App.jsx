@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import HomePage from "./components/Homepage";
 import Workshop from "./components/Workshop";
 import ContactUs from "./components/ContactUs";
+import Events from "./components/Events";
 import { Container } from "react-bootstrap";
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/workshop" element={<Workshop />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/events" element={<Events />} />
           </Routes>
         </Container>
       </div>
