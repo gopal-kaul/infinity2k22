@@ -51,7 +51,7 @@ export default function Workshop() {
           their own laptops. (A group of 2-3 students can also share a laptop).
         </p>
         <div className="centerbtn">
-          <button className="registerbtn ">
+          <button className="registerbtn">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSeZYilfQxo00pKvxIfP3XKwq6k5HKsoJFHLQwmAwLNFMSkEjA/viewform"
               rel="noreferrer"
