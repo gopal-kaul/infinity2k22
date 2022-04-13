@@ -31,6 +31,9 @@ export default function MyNavbar() {
               <LinkContainer to={"/sponsors"}>
                 <Nav.Link>Sponsors</Nav.Link>
               </LinkContainer>
+              <LinkContainer to={"/gallery"}>
+                <Nav.Link>Gallery</Nav.Link>
+              </LinkContainer>
               <LinkContainer to={"/events"}>
                 <Nav.Link>Events</Nav.Link>
               </LinkContainer>
