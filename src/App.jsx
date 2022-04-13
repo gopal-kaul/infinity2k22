@@ -1,6 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter, Route, Routes} from "react-router-dom";
+import { HashRouter, Route, Routes} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HomePage from "./components/Homepage";
@@ -12,7 +12,7 @@ import { Container } from "react-bootstrap";
 import FourOhFour from "./components/404";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Navbar />
       <div className="mycontainer">
@@ -27,7 +27,7 @@ function App() {
         </Container>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
