@@ -13,32 +13,38 @@ function MyCard({ image, name, info, quote, registerlink }) {
           variant="top"
         />
         <Card.Body onClick={() => setHide((old) => !old)}>
-          <Card.Title
-            style={{ display: "flex", justifyContent: "space-between" }}
-          >
-            <h2>{name}</h2>
-            {!hide ? (
-              <ThreeDotsVertical style={{ left: "0%", color: "black" }} />
-            ) : (
-              <X style={{ left: "0%", color: "black" }} />
-            )}
-          </Card.Title>
-          <Card.Text>{info}</Card.Text>
-          {hide && (
-            <Card.Text className={`cardquote ${hide ? "showimg" : "hideimg"}`}>
-              <strong>{quote}</strong>
-            </Card.Text>
-          )}
-          <button className="registerbtn ">
-            <a
-              href={registerlink}
-              rel="noreferrer"
-              target="_blank"
-              style={{ textDecoration: "none" }}
+          <div>
+            <Card.Title
+              style={{ display: "flex", justifyContent: "space-between" }}
             >
-              <p>Register</p>
-            </a>
-          </button>
+              <h2>{name}</h2>
+              {!hide ? (
+                <ThreeDotsVertical style={{ left: "0%", color: "black" }} />
+              ) : (
+                <X style={{ left: "0%", color: "black" }} />
+              )}
+            </Card.Title>
+            <Card.Text>{info}</Card.Text>
+            {hide && (
+              <Card.Text
+                className={`cardquote ${hide ? "showimg" : "hideimg"}`}
+              >
+                <strong>{quote}</strong>
+              </Card.Text>
+            )}
+          </div>
+          <div>
+            <button className="registerbtn ">
+              <a
+                href={registerlink}
+                rel="noreferrer"
+                target="_blank"
+                style={{ textDecoration: "none" }}
+              >
+                <p>Register</p>
+              </a>
+            </button>
+          </div>
         </Card.Body>
       </Card>
     );
