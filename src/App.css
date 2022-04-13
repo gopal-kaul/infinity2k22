@@ -134,7 +134,7 @@ ul {
   color: var(--text-color);
 }
 
-.myfooter p{
+.myfooter p {
   font-size: 0.8rem;
 }
 
@@ -158,9 +158,15 @@ ul {
 }
 
 @media screen and (max-width: 992px) {
-  p,
+  .secondarycontent p,
   li {
     font-size: 1rem;
+  }
+  .registerbtn p {
+    font-size: 0.9rem !important;
+  }
+  .secondarycontent{
+    margin-bottom: 5%;
   }
 }
 
@@ -178,11 +184,16 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-  footer strong,
-  a,
+  footer a,
   i,
   p {
     font-size: 0.8rem;
+  }
+  footer strong{
+    font-size: 1rem;
+  }
+  footer p{
+    margin-top: 5%;
   }
 }
 
