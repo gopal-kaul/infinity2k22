@@ -77,6 +77,9 @@ export default function HomePage() {
           department has close interaction with software development firms and
           R&amp;D establishments.
         </p>
+        <h1>Head of Department</h1>
+        <Image src="hod.jpg" className="d-block w-100 circleimg centreimage" />
+        <h2>Prof. K. Shyamala</h2>
       </section>
     </div>
   );
