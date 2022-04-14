@@ -2,7 +2,7 @@
   "name": "infinity2k22",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://infinity2k22ou.tech/",
+  "homepage": "https://infinity2k22ou.tech",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
