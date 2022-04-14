@@ -80,12 +80,19 @@ function MyCard({ image, name, info, quote, registerlink }) {
 export default function Events() {
   const events = [
     {
+      image: "logo.png",
+      name: "Hackathon",
+      info: "Solve problems and develop solutions to issues in your own unique way. All you need to do is assemble your team. ",
+      quote: ``,
+      register: "https://forms.gle/Qfbh8cQdayKpKWBN7",
+    },
+    {
       image: "CodeFury.png",
       name: "CodeFury",
       info: "This is a callout to all the coding geeks out there. Showcase your coding and problem-solving skills by participating in the grand coding competition of Infinity 2022 - Codefury. Win exciting cash prizes and gifts by performing exceptionally. Anyone with a knack for coding is welcome to join the competition and who knows, you might end up being the champion.",
       quote: `Process: 
       3 Rounds of coding competition`,
-      register: "",
+      register: "https://forms.gle/auFTMry5qA54qe6m6",
     },
     {
       image: "InfyHunt.png",
@@ -172,7 +179,7 @@ Round 2: A quiz based on logos and company descriptions
       image: "Technothrone.png",
       name: "Technothrone",
       info: "If you risk nothing then you risk everything ! That’s how we play the game! A Casino Party event where you experience the fun and excitement of playing in a real casino, but instead of you and your team going to a casino to play, the 'casino' is brought to you! Put your gambling skills to the test with this fun event, the idea is simple: bet your knowledge and ascend the throne. Risk it here",
-      quote: `Round: Play an exciting quiz to earn points, but this comes at a price: deposit your points into a pool where the highest risk taker+correct answer combo receives all the points from the pool.`,
+      quote: `Round:: Play an exciting quiz to earn points, but this comes at a price: deposit your points into a pool where the highest risk taker+correct answer combo receives all the points from the pool.`,
       register: "",
     },
     {
