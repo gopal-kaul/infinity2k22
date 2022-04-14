@@ -64,7 +64,7 @@ li {
   display: flex;
   text-align: center;
   flex-direction: column;
-  min-height: 100vh;
+  margin-bottom: 10%;
 }
 @media screen and (max-width: 768px) {
   .titlecont {
@@ -75,7 +75,7 @@ li {
 .title1,
 .title2 {
   animation: colourchange 3s linear infinite;
-  font-size: 15vw;
+  font-size: 10vw;
 }
 .title2 {
   animation-delay: 1s;
@@ -382,4 +382,15 @@ p {
 }
 .maincontent h2 {
   color: white;
+}
+
+.sponsorrow {
+  display: flex !important;
+  flex-direction: row;
+  flex-shrink: 0;
+  margin-top: 5%;
+}
+.sponsorchild {
+  height: 20vh;
+  max-height: 20vh;
 }
