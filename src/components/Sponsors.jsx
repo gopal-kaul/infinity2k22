@@ -47,7 +47,7 @@ export default function Sponsors() {
   ];
   return (
     <>
-      <h1 style={{ color: "white", fontSize: "3rem" }}>
+      <h1 style={{ color: "white", fontSize: "2.5rem" }}>
         Previous Sponsors :
       </h1>
       <Marquee
