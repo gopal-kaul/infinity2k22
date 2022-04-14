@@ -56,6 +56,7 @@ li {
   50% {
     background-image: var(--text-gradient);
     background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
   }
 }
