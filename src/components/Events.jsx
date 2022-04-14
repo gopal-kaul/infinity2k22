@@ -167,7 +167,7 @@ Round 2: Snakes and ladders infused with quiz
       registerlink: "#",
     },
     {
-      image: "logo.png",
+      image: "Techfeud.png",
       name: "LogoTech",
       info: "Think you know your logos well? Then use your gray matter to find the gray matter (logo’s silhouette). A fun logo based event to enjoy with your team where you test whether brand recall exists without a brand's defining characteristic—its name. A feud based event in which two teams compete to name the most popular answers to survey questions in order to win points. Participate by registering here",
       quote: `Round 1: Questions based on opinion or expectations in tech are taken from a survey before the event. Participants must respond not with their own opinions and expectations, but with guesses as to which answers were common or popular.
@@ -188,13 +188,6 @@ Round 2: A quiz based on logos and company descriptions
       info: "Ever wanted to be in a real shark tank? This is your chance. Pitch in your ideas, get suggestions and build a virtual startup. We welcome all the entrepreneurs to bring your creative ideas to the bench",
       quote: ``,
       register: "",
-    },
-    {
-      image: "Techfeud.png",
-      name: "Techfeud",
-      info: "A fun logo based event to enjoy with your team where you test whether brand recall exists without a brand's defining characteristic- it's name followed by a feud based event in which two teams compete to name the most popular answers to survey questions in order to win points.",
-      quote: "'The strongest logos tell the simplest stories'",
-      registerlink: "#",
     },
     { image: "", name: "", info: "", quote: ``, register: "" },
   ];
