@@ -13,8 +13,8 @@ function MyCard({ image, name, info, quote, registerlink }) {
           src={`${image}`}
           variant="top"
         />
-        <Card.Body onClick={() => setHide((old) => !old)}>
-          <div>
+        <Card.Body>
+          <div onClick={() => setHide((old) => !old)}>
             <Card.Title
               style={{ display: "flex", justifyContent: "space-between" }}
             >
@@ -49,16 +49,16 @@ function MyCard({ image, name, info, quote, registerlink }) {
             )}
           </div>
           <div>
-            <button className="registerbtn ">
-              <a
-                href={registerlink}
-                rel="noreferrer"
-                target="_blank"
-                style={{ textDecoration: "none" }}
-              >
+            <a
+              href={`${registerlink}`}
+              rel="noreferrer"
+              target="_blank"
+              style={{ textDecoration: "none" }}
+            >
+              <button className="registerbtn">
                 <p>Register</p>
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </Card.Body>
       </Card>
@@ -208,7 +208,7 @@ Round 2: A quiz based on logos and company descriptions
             name={event.name}
             info={event.info}
             quote={event.quote}
-            registerlink={event.registerlink}
+            registerlink={event.register}
           />
         );
       })}
