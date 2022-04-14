@@ -66,8 +66,8 @@ li {
   text-align: center;
   flex-direction: column;
   margin-bottom: 10%;
-   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://miro.medium.com/max/1400/1*eBZfXMuE72uCDtjUZEzZHQ.gif"); 
+   /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://miro.medium.com/max/1400/1*eBZfXMuE72uCDtjUZEzZHQ.gif");  */
 }
 @media screen and (max-width: 768px) {
   .titlecont {
