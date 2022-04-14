@@ -1,5 +1,5 @@
-import { Container, Image, Carousel } from "react-bootstrap";
-import { useEffect, useState } from "react";
+import { Image, Carousel } from "react-bootstrap";
+import { useEffect } from "react";
 export default function HomePage() {
   let userInteracted = false;
   useEffect(() => {
