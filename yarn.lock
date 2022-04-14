@@ -758,6 +758,11 @@ react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
+react-easy-marquee@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/react-easy-marquee/-/react-easy-marquee-1.2.3.tgz#1de9c93bd397411d774307a5d67bcb2aecc1af33"
+  integrity sha512-nXAaKgDPQSNshD8i+vb3VyNdQK34QjqeSriakWbyYictTkQkRhH1N5AXw5iVT9/FZGQNNRwHEPf0a0je2XsQZQ==
+
 react-is@^16.13.1, react-is@^16.3.2:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
