@@ -32,8 +32,10 @@ export default function HomePage() {
       }}
     >
       <div className="titlecont">
-        <h1 className="title1">Infinity</h1>
-        <h1 className="title2">2k22</h1>
+        <h1>
+          <span className="title1">Infinity </span>
+          <span className="title2">2k22</span>
+        </h1>
       </div>
       <section id="maincontent"></section>
       <section className="maincontent">
