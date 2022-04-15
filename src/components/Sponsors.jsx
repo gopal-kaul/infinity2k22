@@ -12,7 +12,7 @@ export default function Sponsors() {
     "K Raheja Corp",
     "Magnaquest",
     "NMDC",
-    "Wesley College",
+    "Wesley",
     "Zetagile",
   ];
   return (
