@@ -36,7 +36,7 @@ export default function HomePage() {
       <div className="marqueecontainer">
         <Marquee duration={10000} pauseOnHover reverse>
           <Link style={{ textDecoration: "none" }} to={"/workshop"}>
-            <strong style={{ fontSize: "2rem", color: "#D30DB2" }}>
+            <strong style={{ fontSize: "1.5rem", color: "#D30DB2" }}>
               🔔 Register for AI | ML Workshop by Google
             </strong>
           </Link>
