@@ -80,7 +80,7 @@ function MyCard({ image, name, info, quote, registerlink }) {
 export default function Events() {
   const events = [
     {
-      image: "logo.png",
+      image: "Hackathon.png",
       name: "Hackathon",
       info: "Solve problems and develop solutions to issues in your own unique way. All you need to do is assemble your team. ",
       quote: ``,
