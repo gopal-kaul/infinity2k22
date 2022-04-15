@@ -8,13 +8,7 @@ export default function Sponsors() {
     "DRDO",
     "IndianImmunologicals",
   ];
-  const photos2 = [
-    "K Raheja Corp",
-    "Magnaquest",
-    "NMDC",
-    "Wesley",
-    "Zetagile",
-  ];
+  const photos2 = ["K Raheja Corp", "Magnaquest", "NMDC", "Wesley", "Zetagile"];
   return (
     <>
       <h1 style={{ color: "white", fontSize: "2.5rem" }}>
@@ -25,7 +19,7 @@ export default function Sponsors() {
           <Image
             key={image}
             src={`sponsors/${image}.svg`}
-            alt="picsum"
+            alt={`${image}`}
             className="sponsorchild"
           />
         ))}
@@ -40,7 +34,7 @@ export default function Sponsors() {
           <Image
             key={image}
             src={`sponsors/${image}.svg`}
-            alt="picsum"
+            alt={`${image}`}
             className="sponsorchild"
           />
         ))}
