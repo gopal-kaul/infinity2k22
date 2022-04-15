@@ -2,64 +2,29 @@ import { Image } from "react-bootstrap";
 import { Marquee } from "react-easy-marquee";
 export default function Sponsors() {
   const photos1 = [
-    {
-      name: "Being Zero",
-      extension: "png",
-    },
-    {
-      name: "Cleartrip",
-      extension: "svg",
-    },
-    {
-      name: "Cyient",
-      extension: "svg",
-    },
-    {
-      name: "DRDO",
-      extension: "svg",
-    },
-    {
-      name: "Indian Immunologicals Limited",
-      extension: "png",
-    },
+    "Being Zero",
+    "Clear Trip",
+    "Cyient",
+    "DRDO",
+    "IndianImmunologicals",
   ];
   const photos2 = [
-    {
-      name: "K Raheja Corp",
-      extension: "png",
-    },
-    {
-      name: "Magnaquest",
-      extension: "png",
-    },
-    {
-      name: "NMDC",
-      extension: "png",
-    },
-    {
-      name: "Wesley College",
-      extension: "png",
-    },
-    {
-      name: "Zetagile",
-      extension: "png",
-    },
+    "K Raheja Corp",
+    "Magnaquest",
+    "NMDC",
+    "Wesley College",
+    "Zetagile",
   ];
   return (
     <>
       <h1 style={{ color: "white", fontSize: "2.5rem" }}>
         Previous Sponsors :
       </h1>
-      <Marquee
-        duration={15000}
-        background="#fafafa"
-        className="sponsorrow"
-        height={"20vh"}
-      >
+      <Marquee duration={15000} background="#fafafa" className="sponsorrow">
         {photos1.map((image) => (
           <Image
             key={image}
-            src={`sponsors/${image.name}.${image.extension}`}
+            src={`sponsors/${image}.svg`}
             alt="picsum"
             className="sponsorchild"
           />
@@ -69,13 +34,12 @@ export default function Sponsors() {
         duration={15000}
         background="#fafafa"
         className="sponsorrow"
-        height={"20vh"}
         reverse
       >
         {photos2.map((image) => (
           <Image
             key={image}
-            src={`sponsors/${image.name}.${image.extension}`}
+            src={`sponsors/${image}.svg`}
             alt="picsum"
             className="sponsorchild"
           />

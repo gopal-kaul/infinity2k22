@@ -392,6 +392,8 @@ p {
   flex-direction: row;
   flex-shrink: 0;
   margin-top: 5%;
+  height: 30vh ;
+  min-height: 30vh;
 }
 .sponsorchild {
   height: 20vh;
