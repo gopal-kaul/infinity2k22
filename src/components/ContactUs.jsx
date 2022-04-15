@@ -25,7 +25,7 @@ export default function ContactUs() {
             8008495710
           </a>
           <h1>Treasurer: Rupesh</h1>
-          <a target="_blank" href="https://wa.me/+91773195395" rel="noreferrer">
+          <a target="_blank" href="https://wa.me/+917731953955" rel="noreferrer">
             7731953955
           </a>
         </div>
