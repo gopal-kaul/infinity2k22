@@ -1,5 +1,7 @@
 import { Image, Carousel } from "react-bootstrap";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
+import Marquee from "react-easy-marquee";
 export default function HomePage() {
   let userInteracted = false;
   useEffect(() => {
@@ -31,6 +33,13 @@ export default function HomePage() {
         userInteracted = true;
       }}
     >
+      <Marquee duration={10000} pauseOnHover>
+        <Link style={{ textDecoration: "none" }} to={"/workshop"}>
+          <strong style={{ fontSize: "2rem", color: "#D30DB2" }}>
+            Register for Workshop Now!
+          </strong>
+        </Link>
+      </Marquee>
       <div className="titlecont">
         <h1>
           <span className="title1">Infinity </span>
