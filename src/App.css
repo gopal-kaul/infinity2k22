@@ -308,7 +308,6 @@ footer p {
     height: 0;
   }
 }
-
 .hideimg {
   animation: hiding 1s;
   animation-fill-mode: forwards;
