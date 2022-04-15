@@ -16,7 +16,7 @@ export default function MyNavbar() {
               <Image
                 width={60}
                 height={60}
-                src="logo.png"
+                src="logo.webp"
                 alt="Infinity 2k22 Logo"
               />
             </Navbar.Brand>
