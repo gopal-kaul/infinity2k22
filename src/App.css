@@ -398,3 +398,13 @@ p {
   height: 20vh;
   max-height: 20vh;
 }
+
+.galleryimg{
+  height: 80vh;
+}
+@media screen and (max-width: 968px) {
+  .galleryimg{
+    margin-top: 20% ;
+    height: min-content;
+  }
+}
