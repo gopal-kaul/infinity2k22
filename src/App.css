@@ -408,3 +408,7 @@ p {
     height: min-content;
   }
 }
+
+.marqueecontainer{
+  border: 2px white solid;
+}
