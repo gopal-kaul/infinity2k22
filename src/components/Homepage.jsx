@@ -33,7 +33,7 @@ export default function HomePage() {
         userInteracted = true;
       }}
     >
-      <Marquee duration={10000} pauseOnHover>
+      <Marquee duration={10000} pauseOnHover reverse>
         <Link style={{ textDecoration: "none" }} to={"/workshop"}>
           <strong style={{ fontSize: "2rem", color: "#D30DB2" }}>
             🔔 Register for AI | ML Workshop by Google
