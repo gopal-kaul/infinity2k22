@@ -37,7 +37,7 @@ export default function HomePage() {
           <span className="title2">2k22</span>
         </h1>
       </div>
-      <section className="maincontent">
+      <section id="maincontent" className="maincontent">
         <h1>WELCOME TO INFINITY 2K22</h1>
         <p>
           INFINITY is an annual event being conducted for more than a decade now
