@@ -65,12 +65,12 @@ export default function Workshop() {
         <div className="centerbtn">
           <button className="registerbtn">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeZYilfQxo00pKvxIfP3XKwq6k5HKsoJFHLQwmAwLNFMSkEjA/viewform"
+              href="#"
               rel="noreferrer"
               target="_blank"
               style={{ textDecoration: "none" }}
             >
-              <p>Register</p>
+              <p>Registrations are closed!</p>
             </a>
           </button>
         </div>
