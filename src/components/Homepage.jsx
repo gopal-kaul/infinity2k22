@@ -40,6 +40,11 @@ export default function HomePage() {
               🔔 Register for AI | ML Workshop by Google
             </strong>
           </Link>
+          <Link style={{ textDecoration: "none" }} to={"/events"}>
+            <strong style={{ fontSize: "1.5rem", color: "#D30DB2" }}>
+              🔔 Register for Events
+            </strong>
+          </Link>
         </Marquee>
       </div>
       <div className="titlecont">
