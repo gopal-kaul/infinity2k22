@@ -1,4 +1,4 @@
-import { Image } from "react-bootstrap";
+import { Image, Carousel } from "react-bootstrap";
 export default function Workshop() {
   return (
     <>
@@ -8,6 +8,18 @@ export default function Workshop() {
           Infinity 2k22 presents a two day hands on live workshop on AI and
           Machine Learning
         </p>
+        <Carousel fade style={{ marginBottom: "10vh" }}>
+          {[...Array(14)].map((image, idx) => (
+            <Carousel.Item>
+              <Image
+                key={image}
+                src={`workshop/${idx + 1}.webp`}
+                alt={`${image}`}
+                className="w-100 d-block"
+              />
+            </Carousel.Item>
+          ))}
+        </Carousel>
         <Image src="workshop.jpg" className="d-block w-100" />
         <br />
         <br />
