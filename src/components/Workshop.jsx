@@ -64,14 +64,7 @@ export default function Workshop() {
         </p>
         <div className="centerbtn">
           <button className="registerbtn">
-            <a
-              href="#"
-              rel="noreferrer"
-              target="_blank"
-              style={{ textDecoration: "none" }}
-            >
-              <p>Registrations are closed!</p>
-            </a>
+            <p>Registrations are closed!</p>
           </button>
         </div>
       </div>
