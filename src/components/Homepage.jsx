@@ -61,19 +61,16 @@ export default function HomePage() {
         </p>
         <Carousel fade>
           <Carousel.Item>
-            <Image src="incognito.svg" className="d-block w-100" />
+            <Image src="events/Incognito.webp" className="d-block w-100" />
           </Carousel.Item>
           <Carousel.Item>
-            <Image src="queryshots.svg" className="d-block w-100" />
+            <Image src="events/ThinkVest.webp" className="d-block w-100" />
           </Carousel.Item>
           <Carousel.Item>
-            <Image src="techfeud.svg" className="d-block w-100" />
+            <Image src="events/InfyHunt.webp" className="d-block w-100" />
           </Carousel.Item>
           <Carousel.Item>
-            <Image src="technergy.svg" className="d-block w-100" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image src="techtactoe.svg" className="d-block w-100" />
+            <Image src="events/TechTacToe.webp" className="d-block w-100" />
           </Carousel.Item>
         </Carousel>
         <br />
