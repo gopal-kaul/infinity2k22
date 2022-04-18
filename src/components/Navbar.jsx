@@ -25,6 +25,9 @@ export default function MyNavbar() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto"></Nav>
             <Nav className="movenav">
+              <LinkContainer to={"/"}>
+                <Nav.Link>Home</Nav.Link>
+              </LinkContainer>
               <LinkContainer to={"/workshop"}>
                 <Nav.Link>Workshop</Nav.Link>
               </LinkContainer>
