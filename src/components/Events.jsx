@@ -126,7 +126,7 @@ Everyone is welcome to explain your project here!
       name: "Query Shots",
       info: `Select students
 From any_college
-Where interest in (“DATABASE MANAGEMENT SYSTEMS”,”DATA MODELING”);
+Where interest in ("DBMS");
 
 
 Yes, you guessed it right! If you have an interest or a knack for the famous subject- Database Management Systems, you are at the right place. This is a competition where you get to showcase your DBMS skills in a series of challenges through quizzes and query making. We welcome you all to explore this corner of yours. Get registered.`,
@@ -152,8 +152,7 @@ When in a team, be a teammate!
 Have you ever wondered what these quotes really mean? They ask you to build synergy with the members you are with and so does our event where the synergy with your team-members plays the most crucial role. Explore these events and experience some fun. Get registered!
 `,
       quote: `Process:
-        Round 1: Relay Coding where team members are informed of the problem statement at once and members have to develop code one by one taking breaks after a certain interval and the next member has to develop on the previous member’s code.
-Round 2: A debate round where you have to make use of your wit to convince the other team about your argument.
+2 Rounds : Relay Coding
 `,
       registerlink: "#",
     },
@@ -169,9 +168,9 @@ Round 2: Snakes and ladders infused with quiz
     {
       image: "Logophilia.webp",
       name: "Logophilia",
-      info: "Think you know your logos well? Then use your gray matter to find the gray matter (logo’s silhouette). A fun logo based event to enjoy with your team where you test whether brand recall exists without a brand's defining characteristic—its name. A feud based event in which two teams compete to name the most popular answers to survey questions in order to win points. Participate by registering here",
-      quote: `Round 1: Questions based on opinion or expectations in tech are taken from a survey before the event. Participants must respond not with their own opinions and expectations, but with guesses as to which answers were common or popular.
-Round 2: A quiz based on logos and company descriptions 
+      info: "Think you know your logos well? Then use your gray matter to find the gray matter (logo’s silhouette). A fun logo based event to enjoy with your team where you test whether brand recall exists without a brand's defining characteristic—its name.",
+      quote: `Round 1: Quiz based on logos
+Round 2: Who am I?
 `,
       register: "",
     },
