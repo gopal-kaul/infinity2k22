@@ -10,7 +10,7 @@ function MyCard({ image, name, info, quote, registerlink }) {
         <Card.Img
           style={{ backgroundColor: "black" }}
           className={`${hide ? "hideimg" : "showimg"}`}
-          src={`${image}`}
+          src={`events/${image}`}
           variant="top"
         />
         <Card.Body>
@@ -113,7 +113,7 @@ Everyone is welcome to explain your ideas here!
       register: "",
     },
     {
-      image: "Project Expo.webp",
+      image: "ProjectExpo.webp",
       name: "Project Expo",
       info: "Want to explain your projects or a research topic to an audience who can understand and provide you with feedback to expand your horizons? We welcome you to our event Infinity to appreciate your talent and help with improvements, if any. Explain your project or a research paper to subject matter experts and get suggestions. The best presentation gets a prize",
       quote: `Process:
@@ -122,7 +122,7 @@ Everyone is welcome to explain your project here!
       register: "",
     },
     {
-      image: "Query Shots.webp",
+      image: "QueryShots.webp",
       name: "Query Shots",
       info: `Select students
 From any_college
@@ -158,7 +158,7 @@ Round 2: A debate round where you have to make use of your wit to convince the o
       registerlink: "#",
     },
     {
-      image: "Tech-Tac-Toe.webp",
+      image: "TechTacToe.webp",
       name: "Tech Tac Toe",
       info: "Remember the good old game tic-tac-toe, snakes and ladders? How would you feel playing them at a tech event with some technological spice mix added? We are definitely sure that you would have plenty of fun since it’s not just about game tactics but also your mind-tactics. Participate by registering here.",
       quote: `Round 1: tic tac toe with quiz where the team can mark X or O only when you get the quiz question right
@@ -176,14 +176,14 @@ Round 2: A quiz based on logos and company descriptions
       register: "",
     },
     {
-      image: "Technothrone.webp",
+      image: "TechnoThrone.webp",
       name: "Technothrone",
       info: "If you risk nothing then you risk everything ! That’s how we play the game! A Casino Party event where you experience the fun and excitement of playing in a real casino, but instead of you and your team going to a casino to play, the 'casino' is brought to you! Put your gambling skills to the test with this fun event, the idea is simple: bet your knowledge and ascend the throne. Risk it here",
       quote: `Round:: Play an exciting quiz to earn points, but this comes at a price: deposit your points into a pool where the highest risk taker+correct answer combo receives all the points from the pool.`,
       register: "",
     },
     {
-      image: "Thinkvest.webp",
+      image: "ThinkVest.webp",
       name: "Thinkvest",
       info: "Ever wanted to be in a real shark tank? This is your chance. Pitch in your ideas, get suggestions and build a virtual startup. We welcome all the entrepreneurs to bring your creative ideas to the bench",
       quote: ``,
