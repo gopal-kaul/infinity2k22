@@ -3,6 +3,19 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Marquee from "react-easy-marquee";
 export default function HomePage() {
+  const events = [
+    "CodeFury.webp",
+    "InfyHunt.webp",
+    "Poster Presentation.webp",
+    "ProjectExpo.webp",
+    "QueryShots.webp",
+    "Incognito.webp",
+    "Technergy.webp",
+    "TechTacToe.webp",
+    "Logophilia.webp",
+    "TechnoThrone.webp",
+    "ThinkVest.webp",
+  ];
   let userInteracted = false;
   useEffect(() => {
     setTimeout(() => {
@@ -60,18 +73,9 @@ export default function HomePage() {
           geeks!
         </p>
         <Carousel fade>
-          <Carousel.Item>
-            <Image src="events/Incognito.webp" className="d-block w-100" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image src="events/ThinkVest.webp" className="d-block w-100" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image src="events/InfyHunt.webp" className="d-block w-100" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <Image src="events/TechTacToe.webp" className="d-block w-100" />
-          </Carousel.Item>
+          {events.map((event) => (<Carousel.Item>
+            <Image src={`events/${event}`} className="d-block w-100" />
+          </Carousel.Item>))}
         </Carousel>
         <br />
         <h1>ABOUT CSE DEPARTMENT</h1>
