@@ -92,7 +92,7 @@ export default function Events() {
             info: "This is a callout to all the coding geeks out there. Showcase your coding and problem-solving skills by participating in the grand coding competition of Infinity 2022 - Codefury. Win exciting cash prizes and gifts by performing exceptionally. Anyone with a knack for coding is welcome to join the competition and who knows, you might end up being the champion.",
             quote: `Process: 
       3 Rounds of coding competition`,
-            register: "https://forms.gle/auFTMry5qA54qe6m6",
+            register: "https://docs.google.com/forms/d/18PQr9f48hM2OsklvMULryGXM9kpeHEAVTgg3kdyZSKc/edit",
         },
         {
             image: "InfyHunt.webp",
@@ -101,7 +101,7 @@ export default function Events() {
             quote: `Process: 
 Round 1:  Solve the mystery!
 Round 2: This one’s a mystery ;)`,
-            register: "",
+            register: "https://docs.google.com/forms/d/1Y5aZclvDYX84lTJdkR6B-Sps0WAHYAClfTdcm8Dkm2o/edit",
         },
         {
             image: "Poster Presentation.webp",
@@ -110,7 +110,7 @@ Round 2: This one’s a mystery ;)`,
             quote: `Process:
 Everyone is welcome to explain your ideas here!
 `,
-            register: "",
+            register: "https://docs.google.com/forms/d/1Bp02qLXQQY1QG-NKxBbFQvHJ6uI4q1esqtnvY1xim94/edit",
         },
         {
             image: "ProjectExpo.webp",
@@ -119,7 +119,7 @@ Everyone is welcome to explain your ideas here!
             quote: `Process:
 Everyone is welcome to explain your project here!
 `,
-            register: "",
+            register: "https://docs.google.com/forms/d/1tKte2NxvC3ZdNYCvj6icFMXA4hg6CCrLHGyMFIZX8k8/edit",
         },
         {
             image: "QueryShots.webp",
@@ -133,7 +133,7 @@ Yes, you guessed it right! If you have an interest or a knack for the famous sub
             quote: `
 Round-1: DBMS quiz a theme based quiz where you need to answer the quiz and take the shots for your correct answer
 Round 2: Unlock shots of fun by making queries`,
-            registerlink: "#",
+            registerlink: "https://docs.google.com/forms/d/1YvHsuLPoZGhD68qZ8S1wffwYRewpXpLCvd-r-lxJEsI/edit",
         },
         {
             image: "Incognito.webp",
@@ -143,7 +143,7 @@ Round 2: Unlock shots of fun by making queries`,
 Round 1: Blind Coding
 Round 2: Debugging
 `,
-            registerlink: "#",
+            registerlink: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
         },
         {
             image: "Technergy.webp",
@@ -156,7 +156,7 @@ Have you ever wondered what these quotes really mean? They ask you to build syne
             quote: `Process:
 2 Rounds : Relay Coding
 `,
-            registerlink: "#",
+            registerlink: "https://docs.google.com/forms/d/1kI72-z7_JiwcL5GgMDCckK4nw5kPsqpt_ObMqvbreMw/edit",
         },
         {
             image: "TechTacToe.webp",
@@ -165,7 +165,7 @@ Have you ever wondered what these quotes really mean? They ask you to build syne
             quote: `Round 1: tic tac toe with quiz where the team can mark X or O only when you get the quiz question right
 Round 2: Snakes and ladders infused with quiz
 `,
-            registerlink: "#",
+            registerlink: "https://docs.google.com/forms/d/19TgSTX3FqH-fVK_qtu14xPoKLemxt3PDLkUt0zXovq0/edit",
         },
         {
             image: "Logophilia.webp",
@@ -174,21 +174,21 @@ Round 2: Snakes and ladders infused with quiz
             quote: `Round 1: Quiz based on logos
 Round 2: Who am I?
 `,
-            register: "",
+            register: "https://docs.google.com/forms/d/1_FJqarhYa8spYxMDAyw5NOCybuhXr2QZCHtvoqZZSsw/edit",
         },
         {
             image: "TechnoThrone.webp",
             name: "Technothrone",
             info: "If you risk nothing then you risk everything ! That’s how we play the game! A Casino Party event where you experience the fun and excitement of playing in a real casino, but instead of you and your team going to a casino to play, the 'casino' is brought to you! Put your gambling skills to the test with this fun event, the idea is simple: bet your knowledge and ascend the throne. Risk it here",
             quote: `Round: Play an exciting quiz to earn points, but this comes at a price: deposit your points into a pool where the highest risk taker+correct answer combo receives all the points from the pool.`,
-            register: "",
+            register: "https://docs.google.com/forms/d/11tIVI-qfX4Uld47vyWiLBaU9WT08nkrWqmyb2GPgvGE/edit",
         },
         {
             image: "ThinkVest.webp",
             name: "Thinkvest",
             info: "Ever wanted to be in a real shark tank? This is your chance. Pitch in your ideas, get suggestions and build a virtual startup. We welcome all the entrepreneurs to bring your creative ideas to the bench",
             quote: ``,
-            register: "",
+            register: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
         },
         { image: "", name: "", info: "", quote: ``, register: "" },
     ];
