@@ -143,7 +143,7 @@ Round 2: Unlock shots of fun by making queries`,
 Round 1: Blind Coding
 Round 2: Debugging
 `,
-            register: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
+            register: "https://docs.google.com/forms/d/1UVo69RSH1gBKsQiZ85hc1x5uvWpoelYeQSib_2hAgOA/viewform",
         },
         {
             image: "Technergy.webp",
