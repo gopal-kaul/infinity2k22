@@ -28,6 +28,7 @@ export default function ContactUs() {
           <a target="_blank" href="https://wa.me/+917731953955" rel="noreferrer">
             7731953955
           </a>
+          <h1>Secretary: Venkatesh</h1>
         </div>
         <div className="contactchild">
           <div className="imagecenter">
