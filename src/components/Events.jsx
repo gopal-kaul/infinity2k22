@@ -133,7 +133,7 @@ Yes, you guessed it right! If you have an interest or a knack for the famous sub
             quote: `
 Round-1: DBMS quiz a theme based quiz where you need to answer the quiz and take the shots for your correct answer
 Round 2: Unlock shots of fun by making queries`,
-            registerlink: "https://docs.google.com/forms/d/1YvHsuLPoZGhD68qZ8S1wffwYRewpXpLCvd-r-lxJEsI/edit",
+            register: "https://docs.google.com/forms/d/1YvHsuLPoZGhD68qZ8S1wffwYRewpXpLCvd-r-lxJEsI/edit",
         },
         {
             image: "Incognito.webp",
@@ -143,7 +143,7 @@ Round 2: Unlock shots of fun by making queries`,
 Round 1: Blind Coding
 Round 2: Debugging
 `,
-            registerlink: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
+            register: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
         },
         {
             image: "Technergy.webp",
@@ -156,7 +156,7 @@ Have you ever wondered what these quotes really mean? They ask you to build syne
             quote: `Process:
 2 Rounds : Relay Coding
 `,
-            registerlink: "https://docs.google.com/forms/d/1kI72-z7_JiwcL5GgMDCckK4nw5kPsqpt_ObMqvbreMw/edit",
+            register: "https://docs.google.com/forms/d/1kI72-z7_JiwcL5GgMDCckK4nw5kPsqpt_ObMqvbreMw/edit",
         },
         {
             image: "TechTacToe.webp",
@@ -165,7 +165,7 @@ Have you ever wondered what these quotes really mean? They ask you to build syne
             quote: `Round 1: tic tac toe with quiz where the team can mark X or O only when you get the quiz question right
 Round 2: Snakes and ladders infused with quiz
 `,
-            registerlink: "https://docs.google.com/forms/d/19TgSTX3FqH-fVK_qtu14xPoKLemxt3PDLkUt0zXovq0/edit",
+            register: "https://docs.google.com/forms/d/19TgSTX3FqH-fVK_qtu14xPoKLemxt3PDLkUt0zXovq0/edit",
         },
         {
             image: "Logophilia.webp",
