@@ -80,13 +80,6 @@ function MyCard({ image, name, info, quote, registerlink }) {
 export default function Events() {
     const events = [
         {
-            image: "Hackathon.webp",
-            name: "Hackathon",
-            info: "Solve problems and develop solutions to issues in your own unique way. All you need to do is assemble your team. ",
-            quote: ``,
-            register: "https://forms.gle/Qfbh8cQdayKpKWBN7",
-        },
-        {
             image: "CodeFury.webp",
             name: "CodeFury",
             info: "This is a callout to all the coding geeks out there. Showcase your coding and problem-solving skills by participating in the grand coding competition of Infinity 2022 - Codefury. Win exciting cash prizes and gifts by performing exceptionally. Anyone with a knack for coding is welcome to join the competition and who knows, you might end up being the champion.",
@@ -189,6 +182,13 @@ Round 2: Who am I?
             info: "Ever wanted to be in a real shark tank? This is your chance. Pitch in your ideas, get suggestions and build a virtual startup. We welcome all the entrepreneurs to bring your creative ideas to the bench",
             quote: ``,
             register: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
+        },
+        {
+            image: "Hackathon.webp",
+            name: "Hackathon",
+            info: "Solve problems and develop solutions to issues in your own unique way. All you need to do is assemble your team. ",
+            quote: ``,
+            register: "https://forms.gle/Qfbh8cQdayKpKWBN7",
         },
         { image: "", name: "", info: "", quote: ``, register: "" },
     ];
