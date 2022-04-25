@@ -132,9 +132,9 @@ Round 2: Unlock shots of fun by making queries`,
             image: "Incognito.webp",
             name: "Incognito",
             info: "At some point, we all have blinded chrome by using the incognito tab but did you ever wonder how the other side would have felt like? Experience it here through a series of events which come with their own twist of blindness added to them. Experience it in infinity’s incognito ;)",
-            quote: `Process:
-Round 1: Blind Coding
-Round 2: Debugging
+            quote: `Round 1:  Stand out from the crowd with your fundamentals
+Round 2:  Unbug the bugs 
+Round 3:  Let's go blind coding and make a chance to win INCOGNITO
 `,
             register: "https://docs.google.com/forms/d/1UVo69RSH1gBKsQiZ85hc1x5uvWpoelYeQSib_2hAgOA/viewform",
         },
@@ -146,8 +146,8 @@ When in a team, be a teammate!
 
 Have you ever wondered what these quotes really mean? They ask you to build synergy with the members you are with and so does our event where the synergy with your team-members plays the most crucial role. Explore these events and experience some fun. Get registered!
 `,
-            quote: `Process:
-2 Rounds : Relay Coding
+            quote: `Round 1: Relay coding
+Round 2: Build a code based on the input and output given
 `,
             register: "https://docs.google.com/forms/d/1kI72-z7_JiwcL5GgMDCckK4nw5kPsqpt_ObMqvbreMw/edit",
         },
@@ -180,7 +180,8 @@ Round 2: Who am I?
             image: "ThinkVest.webp",
             name: "Thinkvest",
             info: "Ever wanted to be in a real shark tank? This is your chance. Pitch in your ideas, get suggestions and build a virtual startup. We welcome all the entrepreneurs to bring your creative ideas to the bench",
-            quote: ``,
+            quote: `Round 1: Start a company,design a logo,think big 
+Round 2: Choose a brand ambassador,make your company more successful`,
             register: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
         },
         {
