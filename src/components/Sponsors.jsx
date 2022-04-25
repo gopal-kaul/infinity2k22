@@ -2,9 +2,9 @@ import { Image } from "react-bootstrap";
 import { Marquee } from "react-easy-marquee";
 export default function Sponsors() {
   const photos1 = [
-    "LIC"
+    "LIC", "IMFS", "sensen.ai"
   ];
-  const photos2 = ["sensen.ai"];
+  const photos2 = [];
   return (
     <>
       <h1 style={{ color: "white", fontSize: "2.5rem" }}>
@@ -20,7 +20,7 @@ export default function Sponsors() {
           />
         ))}
       </Marquee>
-      <Marquee
+      {/* <Marquee
         duration={15000}
         background="#fafafa"
         className="sponsorrow"
@@ -34,7 +34,7 @@ export default function Sponsors() {
             className="sponsorchild"
           />
         ))}
-      </Marquee>
+      </Marquee> */}
     </>
   );
 }
