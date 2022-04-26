@@ -85,7 +85,7 @@ export default function Events() {
             info: "This is a callout to all the coding geeks out there. Showcase your coding and problem-solving skills by participating in the grand coding competition of Infinity 2022 - Codefury. Win exciting cash prizes and gifts by performing exceptionally. Anyone with a knack for coding is welcome to join the competition and who knows, you might end up being the champion.",
             quote: `Process: 
       3 Rounds of coding competition`,
-            register: "https://docs.google.com/forms/d/18PQr9f48hM2OsklvMULryGXM9kpeHEAVTgg3kdyZSKc/edit",
+            register: "https://unstop.com/p/infinity2k22-presents-codefury-university-college-of-engineering-osmania-university-uceou-hyderabad-283941",
         },
         {
             image: "InfyHunt.webp",
@@ -99,7 +99,7 @@ Round 2: This one’s a mystery ;)`,
         {
             image: "Poster Presentation.webp",
             name: "Poster Presentation",
-            info: "How would you feel if you had the chance to pitch in your ideas to make something creative and get the feedback from experts? If this makes you excited, then we are happy to announce that we are ready to provide a platform for you for the same. Explain your ideas in the form of posters to our mentors and get more ideas to explore it! What are you waiting for? Let’s get started, Register here.",
+            info: `How would you feel if you had the chance to explore your knowledge to make something creative and get the feedback from subject experts? If this makes you excited, then we are happy to announce that we are ready to provide a platform for you for the same.Explain your topic in the form of posters to our mentors and get feedback and help with improvements! What are you waiting for? Register here !`,
             quote: `Process:
 Everyone is welcome to explain your ideas here!
 `,
