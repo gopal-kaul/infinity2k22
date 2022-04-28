@@ -184,13 +184,13 @@ Round 2: Who am I?
 Round 2: Choose a brand ambassador,make your company more successful`,
             register: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
         },
-        {
+  /*      {
             image: "Hackathon.webp",
             name: "Hackathon",
             info: "Solve problems and develop solutions to issues in your own unique way. All you need to do is assemble your team. ",
             quote: ``,
             register: "https://forms.gle/Qfbh8cQdayKpKWBN7",
-        },
+        }, */
         { image: "", name: "", info: "", quote: ``, register: "" },
     ];
     return (
