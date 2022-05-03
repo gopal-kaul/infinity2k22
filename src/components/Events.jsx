@@ -190,35 +190,6 @@ Round 2: Who am I?
       info: "Ever wanted to be in a real shark tank? This is your chance. Pitch in your ideas, get suggestions and build a virtual startup. We welcome all the entrepreneurs to bring your creative ideas to the bench",
       quote: `Round 1: Start a company,design a logo,think big 
 Round 2: Choose a brand ambassador,make your company more successful`,
-<<<<<<< HEAD
-            register: "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
-        },
-  /*      {
-            image: "Hackathon.webp",
-            name: "Hackathon",
-            info: "Solve problems and develop solutions to issues in your own unique way. All you need to do is assemble your team. ",
-            quote: ``,
-            register: "https://forms.gle/Qfbh8cQdayKpKWBN7",
-        }, */
-        { image: "", name: "", info: "", quote: ``, register: "" },
-    ];
-    return (
-        <div className="eventcontainer">
-            {events.map((event) => {
-                return (
-                    <MyCard
-                        key={event}
-                        image={event.image}
-                        name={event.name}
-                        info={event.info}
-                        quote={event.quote}
-                        registerlink={event.register}
-                    />
-                );
-            })}
-        </div>
-    );
-=======
       register:
         "https://docs.google.com/forms/d/1JHMkTCNJ34iF1bDACpeNd2-5xyxSWGXAC5UFChf5ums/edit",
     },
@@ -247,5 +218,4 @@ Round 2: Choose a brand ambassador,make your company more successful`,
       })}
     </div>
   );
->>>>>>> b7f0e12 (Disale registrations for events)
 }
